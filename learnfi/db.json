@@ -1,0 +1,236 @@
+{
+  "institutions": [
+    {
+      "id": 1,
+      "name": "Massachusetts Institute of Technology",
+      "location": "Cambridge, Massachusetts",
+      "rank": 1,
+      "website": "https://www.mit.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiORr3jYBMZcVu8I-rLVSwXjolYFd4zhpQOA&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 2,
+      "name": "Stanford University",
+      "location": "Cambridge, Massachusetts",
+      "rank": 2,
+      "website": "https://www.stanford.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCJIQe1nKMQ3VPVLXN5-IB2Aawg6zCSvXfQ&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 3,
+      "name": "California Institute of Technology",
+      "location": "Cambridge, Massachusetts",
+      "rank": 3,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4yE0PlZcPC1VkQ8JmK3G2Rg_Cl7R33Jq70g&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 4,
+      "name": "Jamia Millia Islamia",
+      "location": "New Delhi",
+      "rank": 15,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUfJgBWPES3FW7fuvPnfxmOPm_OMA3ZU9Y-0If50YU85ebs99NFzLNJxDG5Jyte2G3L30&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 5,
+      "name": "California Institute of Technology",
+      "location": "Cambridge, Massachusetts",
+      "rank": 3,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4yE0PlZcPC1VkQ8JmK3G2Rg_Cl7R33Jq70g&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 6,
+      "name": "Indian Institute of Technology (IIT)",
+      "location": "New Delhi",
+      "rank": 10,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR80G0BiRhEfqKtSiGMRuKyae6JfwR4ROAyKw&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 7,
+      "name": "University of Hyderabad.",
+      "location": "New Delhi",
+      "rank": 10,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpl0Vg7tJG5sHdYkTrmuNOtrbkhvZG0Ki9dA&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 8,
+      "name": "University of Oxford ",
+      "location": "United Kingdom  ",
+      "rank": 10,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQND8n9qVNqZUQgfur76oIOqv68HGAgIBk_xw&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 9,
+      "name": "Calcutta University ",
+      "location": "United Kingdom ",
+      "rank": 10,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhGyLg0RK1soQvkWVUrBjuRcZ1kDX58dZzQ&usqp=CAU",
+      "Rating": "★★★★"
+    },
+    {
+      "id": 10,
+      "name": "Aligarh Muslim University",
+      "location": "Cambridge, Massachusetts",
+      "rank": 10,
+      "website": "https://www.caltech.edu/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCrf3YPUbXWtvfAg0lixL-c6UTrKnLjvXDg&usqp=CAU",
+      "Rating": "★★★★"
+    }
+  ],
+  "Courses": [
+    {
+      "id": 1,
+      "name": "Fashion Desiging",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AjwN8yvLefj7KOAIcrCqL7OSAseSSgOWpg&usqp=CAU",
+      "location": "Delhi",
+      "Rating": "★★★★★",
+      "rank": 5
+    },
+    {
+      "name": "Computer Science",
+      "Image": "",
+      "location": "Mumbai",
+      "Rating": "★★★★",
+      "rank": 5,
+      "id": 2,
+      "image": "https://storage-prtl-co.imgix.net/endor/articles/434/images/1663928047_shutterstock_2083362643.jpg?max-w=660&max-h=532&fit=crop&auto=format,compress&q=40"
+    },
+    {
+      "id": 3,
+      "name": "B Tech",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ-K1XPtIJZ5xX-83Qd6SlM4g2dTUIqgPTug&usqp=CAU",
+      "location": "Mumbai",
+      "Rating": "★★★★★",
+      "rank": 10
+    },
+    {
+      "name": "B Tech-1",
+      "Image": "",
+      "location": "Mumbai",
+      "Rating": "★★★★★",
+      "rank": 8,
+      "id": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROeC5KYC_xwIvn2e9sJvY9De7CFKW2B_SI3Q&usqp=CAU"
+    },
+    {
+      "name": "BCA-1",
+      "Image": "",
+      "location": "Kolkata",
+      "Rating": "★★★★",
+      "rank": 7,
+      "id": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFtKP8qLkZAhXKqJ-392rl0N6ZJrkTikEiIg&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "BPharma",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROeC5KYC_xwIvn2e9sJvY9De7CFKW2B_SI3Q&usqp=CAU",
+      "location": "Kolkata",
+      "Rating": "★★★",
+      "rank": 3
+    },
+    {
+      "id": 7,
+      "name": "Bachelor of Architecture",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_DfahNSsfCpwtsnJmPh3L8JB3AqgFgipLXrzYHwXaoBCdivyZPQuh5oKt5zaZdkfPRg&usqp=CAU",
+      "location": "Kolkata",
+      "Rating": "★★★",
+      "rank": 4
+    },
+    {
+      "name": "B.Sc. Nautical Science -1",
+      "Image": "",
+      "location": "Mumbai",
+      "Rating": "★★★",
+      "rank": 9,
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD2abGBMsNsC0gr6b6cGC_nNydjC305_0vhA&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "name": "Railway Apprentice",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeredfsVYoCOeQyRTArjHR_ZAPEyd0GR4GDg&usqp=CAU",
+      "location": "Delhi",
+      "Rating": "★★★",
+      "rank": 4
+    },
+    {
+      "id": 10,
+      "name": "Pilot ",
+      "image": "https://cache.careers360.mobi/media/presets/820X410/careers/banner_images/2020/7/15/Airline%20Pilot.jpg",
+      "location": "Delhi",
+      "Rating": "★★★",
+      "rank": 6
+    },
+    {
+      "name": "Md Abdul Qadir",
+      "Image": "",
+      "location": "Mumbai",
+      "Rating": "★★★",
+      "rank": 5,
+      "id": 11,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "abdul@123",
+      "password": "abdul"
+    },
+    {
+      "id": 2,
+      "email": "roman@123",
+      "password": "roman"
+    },
+    {
+      "id": 3,
+      "email": "nadim@123",
+      "password": "nadim"
+    },
+    {
+      "id": 4,
+      "email": "qmat@123",
+      "password": "qmat"
+    },
+    {
+      "username": "abdul@123",
+      "password": "abdul",
+      "id": 5
+    },
+    {
+      "username": "k@gmail.com",
+      "password": "ka123",
+      "id": 6
+    },
+    {
+      "username": "m@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "username": "abdul@123",
+      "password": "abdul",
+      "id": 8
+    },
+    {
+      "username": "mdabdulq62@gmail.com",
+      "password": "real",
+      "id": 9
+    }
+  ]
+}
