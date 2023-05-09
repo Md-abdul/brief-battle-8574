@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 export default function Students() {
   return (
-    <div>
+    <div style={{ marginTop: "70px"}}>
       <div></div>
       <h1
         style={{

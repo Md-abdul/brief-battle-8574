@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import { Button } from "@chakra-ui/react";
 import { color } from "framer-motion";
 import { Postdata } from "./Form";
+import {handelSearch} from '../Components/Navbar'
 
 const initState = {
   isLoading: false,
@@ -29,10 +30,10 @@ const reducer = (state, { type, payload }) => {
     }
   }
 };
-const sort = "rank"
-const getfilterurl = (location, orderby,sort) => {
-  let url = `http://localhost:8080/Courses`;
 
+const getfilterurl = (location, orderby) => {
+  let url = `http://localhost:8080/Courses`;
+  const sort = "rank"
   if (location) {
     return (url = `${url}?location=${location}`);
   } 
@@ -58,8 +59,8 @@ export default function Courses({ target }) {
 
   const [toggle, setToggle] = useState(false);
   const [location, setCategory] = useState("");
-  const [orderby, setorderby] = useState("");
-  
+  const [orderby, setorderby] = useState(""); //1
+  const sort = "rank"
 
   
   const handleClick = () => {
@@ -71,12 +72,16 @@ export default function Courses({ target }) {
     getdata(location, orderby)
       .then((res) => {
         console.log(res);
+        
         dispatch({ type: "GET_DATA", payload: res });
       })
       .catch(() => {
         dispatch({ type: "GET_DATA_FAILURE" });
       });
-  }, [location, orderby,forcerender,]);
+
+
+
+  }, [location, orderby,forcerender,handelSearch,orderby,sort]);
 
   // useEffect(() => {
     const deleteResturants = (id) => {
@@ -85,6 +90,10 @@ export default function Courses({ target }) {
         url: `http://localhost:8080/Courses/${id}`,
       }).then((res) => {
         getdata(location, orderby)
+        .then((res) => {
+          console.log(res);
+          dispatch({ type: "GET_DATA", payload: res });
+        })
       });
     };
   // }, [])
@@ -92,7 +101,7 @@ export default function Courses({ target }) {
  
   console.log("outside forcerender",forcerender);
   return (
-    <div style={{ padding: "30px" }}>
+    <div style={{ padding: "30px",marginTop:'70px' }}>
       <div>
         <img
           style={{ height: "500px", width: "100%", borderRadius: "10px" }}
@@ -102,7 +111,7 @@ export default function Courses({ target }) {
       </div>
       <div>
         <Button
-          style={{ marginLeft: "30px", marginTop: "7px" }}
+          style={{ marginLeft: "30px", marginTop: "70px" }}
           colorScheme={"messenger"}
           onClick={handleClick}
         >
@@ -131,9 +140,9 @@ export default function Courses({ target }) {
           <option value="Delhi">Delhi </option>
         </select>
 
-{/* <button style={{border:'1px solid'}} onClick={() => setorderby("asc")}>Asce</button>
+        {/* <button style={{border:'1px solid'}} onClick={() => setorderby("asc")}>Asce</button>
         <button style={{border:'1px solid'}} onClick={() => setorderby("desc")}>desc</button>
-        <button  onClick={() => setorderby("")}>reset</button> */}
+        <button style={{border:'1px solid'}} onClick={() => setorderby("")}>reset</button> */}
 
         <select
           name=""

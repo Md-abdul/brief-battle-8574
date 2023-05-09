@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Stanford University",
-      "location": "Stanford, California",
+      "location": "Cambridge, Massachusetts",
       "rank": 2,
       "website": "https://www.stanford.edu/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCJIQe1nKMQ3VPVLXN5-IB2Aawg6zCSvXfQ&usqp=CAU",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "California Institute of Technology",
-      "location": "Pasadena, California",
+      "location": "Cambridge, Massachusetts",
       "rank": 3,
       "website": "https://www.caltech.edu/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4yE0PlZcPC1VkQ8JmK3G2Rg_Cl7R33Jq70g&usqp=CAU",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "California Institute of Technology",
-      "location": "Pasadena, California",
+      "location": "Cambridge, Massachusetts",
       "rank": 3,
       "website": "https://www.caltech.edu/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4yE0PlZcPC1VkQ8JmK3G2Rg_Cl7R33Jq70g&usqp=CAU",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "Calcutta University ",
-      "location": "West Bengal",
+      "location": "United Kingdom ",
       "rank": 10,
       "website": "https://www.caltech.edu/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhGyLg0RK1soQvkWVUrBjuRcZ1kDX58dZzQ&usqp=CAU",
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "name": "Aligarh Muslim University",
-      "location": "Aligarh",
+      "location": "Cambridge, Massachusetts",
       "rank": 10,
       "website": "https://www.caltech.edu/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCrf3YPUbXWtvfAg0lixL-c6UTrKnLjvXDg&usqp=CAU",
@@ -184,15 +184,6 @@
       "rank": 5,
       "id": 11,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG"
-    },
-    {
-      "name": "",
-      "Image": "",
-      "location": "",
-      "Rating": "",
-      "rank": "",
-      "id": 12,
-      "image": "https://picsum.photos/200"
     }
   ],
   "users": [
@@ -235,6 +226,11 @@
       "username": "abdul@123",
       "password": "abdul",
       "id": 8
+    },
+    {
+      "username": "mdabdulq62@gmail.com",
+      "password": "real",
+      "id": 9
     }
   ]
 }

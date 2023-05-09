@@ -7,7 +7,7 @@ export default function Home() {
     <div style={{ padding: "20px" }}>
       <div>
         <img
-          style={{ width: "100%", borderRadius:'15px' }}
+          style={{ width: "100%", borderRadius:'15px', marginTop:'70px' }}
           src="https://static.vecteezy.com/system/resources/thumbnails/002/294/890/small/digital-education-web-banner-design-teacher-on-monitor-to-explain-the-graph-online-education-e-learning-digital-education-platform-concept-header-or-footer-banner-free-vector.jpg"
           alt=""
         />

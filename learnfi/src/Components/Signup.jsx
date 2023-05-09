@@ -43,7 +43,7 @@ import {
       .then((res) => res.json())
       .then(() => {
         navigate('/courses')
-        alert("slfkjs")
+        alert("Signup Successful")
       })
   
     //   const fetchdata = await fetch(`http://localhost:8080/users`);
@@ -75,6 +75,7 @@ import {
         align={"center"}
         justify={"center"}
         bg={useColorModeValue("gray.50", "gray.800")}
+        mt={-20}
       >
         <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
           <Stack align={"center"}>

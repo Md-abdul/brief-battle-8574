@@ -59,7 +59,7 @@ export default function Institutes({ target }) {
   };
 
   return (
-    <div style={{ padding: "30px" }}>
+    <div style={{ padding: "30px",marginTop: "70px"  }}>
       <div>
         <img
           style={{ height: "500px", width: "100%", borderRadius: "10px" }}
@@ -93,9 +93,9 @@ export default function Institutes({ target }) {
           }}
         >
           <option value="">Filter By Loaction </option>
-          <option value="Kolkata">Kolkata </option>
-          <option value="Mumbai">Mumbai</option>
-          <option value="Delhi">Delhi </option>
+          <option value="Cambridge, Massachusetts">Cambridge, Massachusetts</option>
+          <option value="New Delhi">New Delhi</option>
+          <option value="United Kingdom ">United Kingdom  </option>
         </select>
 
         <select

@@ -50,6 +50,17 @@ const links = [
   { path: "/Analytics", title: "About" },
 ];
 
+export const handelSearch = (e) => {
+  // setSearch(e.target.value)
+
+  return fetch(`http://localhost:8080/Courses?q=${e.target.value}`)
+  .then((res) =>res.json())
+  .then((data) => {
+    getdata(data)
+    console.log(data)
+  })
+}
+
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -57,15 +68,7 @@ export default function Navbar() {
   const [search,setSearch] = useState('')
 
 
-  const handelSearch = (e) => {
-    setSearch(e.target.value)
 
-    return fetch(`http://localhost:8080/Courses?q=${e.target.value}`)
-    .then((res) =>res.json())
-    .then((data) => {
-      getdata(data)
-    })
-  }
 
   const activestyle = {
     color: "red",
@@ -77,19 +80,24 @@ export default function Navbar() {
   return (
     <>
       <Box>
-        <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+        <Box bg={useColorModeValue("gray.100", "gray.900")} px={4} zIndex={1000}
+  position="fixed"
+  top="0"
+  width="100%">
           <Flex
             h={16}
             ml={20}
             alignItems={"center"}
             justifyContent={"space-between"}
           >
-            <Box style={{ width: "70px" }}>
+            <Link to={`/`}><Box style={{ width: "80px" , cursor:'pointer' }}>
               <img
-                src="https://o.remove.bg/downloads/4ff87125-118a-45b7-8ba4-6ae862a33a13/LEARNI_FI2-removebg-preview.png"
-                alt=""
+                src="https://png.pngtree.com/png-vector/20230117/ourmid/pngtree-education-logo-design-for-school-and-organization-png-image_6566044.png"
+                alt="LEARNI FI"
               />
-            </Box>
+              
+            </Box></Link>
+            
 
             {/* <Box style={{border:'2px solid', 
           alignItems:'center', justifyContent:'space-evenly'}}>
@@ -130,7 +138,7 @@ export default function Navbar() {
             </Box>
             <Box>
               <Input
-                placeholder="Search Bar" value={search} onChange={handelSearch}
+                placeholder="Search Bar"  onChange={handelSearch}
                 style={{
                   border: "2px solid",
                   width: "300px",
