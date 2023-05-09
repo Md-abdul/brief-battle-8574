@@ -79,7 +79,7 @@ export default function Form({target}) {
   return (
     <div>
         <form className="form" onSubmit={handleSubmit} >
-        <FormControl className='houseDetails'>
+        <FormControl className='houseDetails' mt={70}>
           <Stack spacing={3} >
             <Input
               focusBorderColor={"lime"}
